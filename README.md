@@ -1,2 +1,2 @@
 # IOS-Calculator
-# GORKEM1986/IOS-Calculator/
+# https://gorkem1986.github.io/IOS-Calculator/
