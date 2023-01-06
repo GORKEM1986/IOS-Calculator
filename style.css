@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 80vh;
+   
+}
+
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(5,80px);
+
+    padding: 380px 20px 20px 20px;
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+    border-radius: 30px;
+    justify-content: center;
+    gap: 15px;
+    font-weight: 700;
+    width: 500px;
+    height:900px;
+   margin: auto auto;
+   
+}
+
+.cal {
+    display: flex;
+    background-color: rgb(64, 62, 62);
+    border-radius: 90%;
+    align-items: center;
+    justify-content: center;  
+
+    
+}
+.cal:hover{
+    cursor: pointer;
+    background-color: rgb(148, 118, 60);
+    color: black;
+
+}
+
+.calc{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    background-color: rgb(64, 62, 62);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.calc:hover{
+    cursor: pointer;
+    background-color: rgb(148, 118, 60);
+    color: black;
+}
+
+.sarı{
+    background-color: orange;
+}
+
+.acık{
+    background-color: rgb(146, 135, 135);
+}
+.koyu{
+    background-color: #ffffff);
+}
